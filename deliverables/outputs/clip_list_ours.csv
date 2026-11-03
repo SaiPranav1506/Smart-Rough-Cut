@@ -1,0 +1,10 @@
+order,shot_id,name,source_file,source_start,source_end,timeline_start,timeline_end,duration,status,confidence,quality,reason
+1,S1,Outside café,raw_footage.mp4,12.4,15.4,0.0,3.0,3.0,found,98,98,Wide exterior storefront establishing shot.
+2,S3,Latte art,upload_01.mp4,1.0,5.0,3.0,7.0,4.0,found,99,43,Close-up latte art milk pour with heart motif.
+3,S2,Coffee being made,upload_02.mp4,1.5,5.5,7.0,11.0,4.0,found,86,48,Countertop espresso process.
+4,S4,Happy customers,raw_footage.mp4,149.4,153.4,11.0,15.0,4.0,found,92,43,"Guests laughing, chatting, and enjoying coffee."
+5,S5,Pastries,raw_footage.mp4,166.2,170.2,15.0,19.0,4.0,found,96,42,Smooth lateral move across pastry display case.
+6,S6,Welcome,,0.0,0.0,0.0,0.0,4,missing,20,20,No usable footage for 'welcome' (the take is missing from footage).
+7,S7,Ribbon cutting,,0.0,0.0,0.0,0.0,3,missing,20,20,No usable footage for 'ribbon' (the take is missing from footage).
+8,S8,Toast,upload_03.mp4,0.2,4.2,19.0,23.0,4.0,found,98,40,Celebratory group toast clinking glasses toward camera.
+

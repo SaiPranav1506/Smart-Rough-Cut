@@ -1,0 +1,297 @@
+{
+  "project": "OnSpotly - default",
+  "brief": "Make a warm, energetic 30-second reel for Bean & Bloom. Start outside, show coffee being made and the latte art, happy customers, pastries, my welcome, the ribbon cutting, and end with a toast.",
+  "shots": [
+    {
+      "id": "S1",
+      "title": "Outside café",
+      "detail": "Establish the Bean & Bloom storefront.",
+      "duration": 3,
+      "file": "raw_footage.mp4",
+      "start": 12.4,
+      "end": 15.4,
+      "confidence": 98,
+      "quality": 98,
+      "reason": "Wide exterior storefront establishing shot.",
+      "tone": "amber",
+      "tag": "OPEN",
+      "status": "found",
+      "media_url": "/api/media/raw_footage.mp4",
+      "alternatives": [
+        {
+          "file": "raw_footage.mp4",
+          "start": 0.0,
+          "end": 3.0,
+          "confidence": 84,
+          "quality": 98,
+          "reason": "Street-level entrance angle."
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "title": "Latte art",
+      "detail": "The hero pour - close and unhurried.",
+      "duration": 4,
+      "file": "upload_01.mp4",
+      "start": 1.0,
+      "end": 5.0,
+      "confidence": 99,
+      "quality": 43,
+      "reason": "Close-up latte art milk pour with heart motif.",
+      "tone": "cream",
+      "tag": "HERO",
+      "status": "found",
+      "media_url": "/api/media/upload_01.mp4",
+      "alternatives": [
+        {
+          "file": "upload_01.mp4",
+          "start": 6.5,
+          "end": 10.5,
+          "confidence": 88,
+          "quality": 42,
+          "reason": "Alternate angle on latte art surface foam."
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "title": "Coffee being made",
+      "detail": "Hands, machine, and movement behind the bar.",
+      "duration": 4,
+      "file": "upload_02.mp4",
+      "start": 1.5,
+      "end": 5.5,
+      "confidence": 86,
+      "quality": 48,
+      "reason": "Countertop espresso process.",
+      "tone": "cocoa",
+      "tag": "PROCESS",
+      "status": "found",
+      "media_url": "/api/media/upload_02.mp4",
+      "alternatives": [
+        {
+          "file": "upload_02.mp4",
+          "start": 1.5,
+          "end": 5.5,
+          "confidence": 86,
+          "quality": 48,
+          "reason": "Countertop espresso process."
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "title": "Happy customers",
+      "detail": "Warm reactions and people enjoying the opening.",
+      "duration": 4,
+      "file": "raw_footage.mp4",
+      "start": 149.4,
+      "end": 153.4,
+      "confidence": 92,
+      "quality": 43,
+      "reason": "Guests laughing, chatting, and enjoying coffee.",
+      "tone": "sage",
+      "tag": "PEOPLE",
+      "status": "found",
+      "media_url": "/api/media/raw_footage.mp4",
+      "alternatives": [
+        {
+          "file": "raw_footage.mp4",
+          "start": 132.0,
+          "end": 136.0,
+          "confidence": 84,
+          "quality": 45,
+          "reason": "Seated customers enjoying cafe atmosphere."
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "title": "Pastries",
+      "detail": "A slow look across the pastry case.",
+      "duration": 4,
+      "file": "raw_footage.mp4",
+      "start": 166.2,
+      "end": 170.2,
+      "confidence": 96,
+      "quality": 42,
+      "reason": "Smooth lateral move across pastry display case.",
+      "tone": "rose",
+      "tag": "DETAIL",
+      "status": "found",
+      "media_url": "/api/media/raw_footage.mp4",
+      "alternatives": [
+        {
+          "file": "raw_footage.mp4",
+          "start": 172.0,
+          "end": 176.0,
+          "confidence": 85,
+          "quality": 41,
+          "reason": "Fresh bakery croissants on display."
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "title": "Welcome",
+      "detail": "The owner welcoming everyone on camera.",
+      "duration": 4,
+      "file": "",
+      "start": 0.0,
+      "end": 0.0,
+      "confidence": 20,
+      "quality": 20,
+      "reason": "No usable footage for 'welcome' (the take is missing from footage).",
+      "tone": "blue",
+      "tag": "AUDIO",
+      "status": "missing",
+      "media_url": "",
+      "alternatives": []
+    },
+    {
+      "id": "S7",
+      "title": "Ribbon cutting",
+      "detail": "The opening moment at the door.",
+      "duration": 3,
+      "file": "",
+      "start": 0.0,
+      "end": 0.0,
+      "confidence": 20,
+      "quality": 20,
+      "reason": "No usable footage for 'ribbon' (the take is missing from footage).",
+      "tone": "red",
+      "tag": "MOMENT",
+      "status": "missing",
+      "media_url": "",
+      "alternatives": []
+    },
+    {
+      "id": "S8",
+      "title": "Toast",
+      "detail": "End on everyone raising a glass.",
+      "duration": 4,
+      "file": "upload_03.mp4",
+      "start": 0.2,
+      "end": 4.2,
+      "confidence": 98,
+      "quality": 40,
+      "reason": "Celebratory group toast clinking glasses toward camera.",
+      "tone": "lime",
+      "tag": "END",
+      "status": "found",
+      "media_url": "/api/media/upload_03.mp4",
+      "alternatives": []
+    }
+  ],
+  "timeline": {
+    "clips": [
+      {
+        "id": "S1",
+        "title": "Outside café",
+        "file": "raw_footage.mp4",
+        "source_start": 12.4,
+        "source_end": 15.4,
+        "start": 0.0,
+        "duration": 3.0,
+        "confidence": 98,
+        "tone": "amber"
+      },
+      {
+        "id": "S3",
+        "title": "Latte art",
+        "file": "upload_01.mp4",
+        "source_start": 1.0,
+        "source_end": 5.0,
+        "start": 3.0,
+        "duration": 4.0,
+        "confidence": 99,
+        "tone": "cream"
+      },
+      {
+        "id": "S2",
+        "title": "Coffee being made",
+        "file": "upload_02.mp4",
+        "source_start": 1.5,
+        "source_end": 5.5,
+        "start": 7.0,
+        "duration": 4.0,
+        "confidence": 86,
+        "tone": "cocoa"
+      },
+      {
+        "id": "S4",
+        "title": "Happy customers",
+        "file": "raw_footage.mp4",
+        "source_start": 149.4,
+        "source_end": 153.4,
+        "start": 11.0,
+        "duration": 4.0,
+        "confidence": 92,
+        "tone": "sage"
+      },
+      {
+        "id": "S5",
+        "title": "Pastries",
+        "file": "raw_footage.mp4",
+        "source_start": 166.2,
+        "source_end": 170.2,
+        "start": 15.0,
+        "duration": 4.0,
+        "confidence": 96,
+        "tone": "rose"
+      },
+      {
+        "id": "S8",
+        "title": "Toast",
+        "file": "upload_03.mp4",
+        "source_start": 0.2,
+        "source_end": 4.2,
+        "start": 19.0,
+        "duration": 4.0,
+        "confidence": 98,
+        "tone": "lime"
+      }
+    ],
+    "revision": 1793602863
+  },
+  "footage": [
+    {
+      "name": "raw_footage.mp4",
+      "size": 30022966,
+      "duration": 206.66,
+      "width": 1280,
+      "height": 720,
+      "fps": 30.0,
+      "media_url": "/api/media/raw_footage.mp4"
+    },
+    {
+      "name": "upload_01.mp4",
+      "size": 1369884,
+      "duration": 13.2,
+      "width": 1280,
+      "height": 720,
+      "fps": 30.0,
+      "media_url": "/api/media/upload_01.mp4"
+    },
+    {
+      "name": "upload_02.mp4",
+      "size": 1449423,
+      "duration": 8.0,
+      "width": 1280,
+      "height": 720,
+      "fps": 30.0,
+      "media_url": "/api/media/upload_02.mp4"
+    },
+    {
+      "name": "upload_03.mp4",
+      "size": 562062,
+      "duration": 2.97,
+      "width": 1280,
+      "height": 720,
+      "fps": 30.0,
+      "media_url": "/api/media/upload_03.mp4"
+    }
+  ],
+  "exported_at": 1793603552.3043487
+}
