@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+opencv-python>=4.11.0
+python-multipart>=0.0.20
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+openai>=1.60.0
+SpeechRecognition>=3.14.0
+numpy>=2.0.0
+imageio-ffmpeg>=0.5.0
